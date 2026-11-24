@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "NicollySantos_CI_CD",
+    "slug": "NicollySantos_CI_CD",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.nicollyssousa.nicollysantoscicd"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.nicollyssousa.nicollysantoscicd"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8842bb5e-6f38-491b-8182-73abce60ea85"
+      }
+    },
+    "owner": "bhannye"
+  }
+}
